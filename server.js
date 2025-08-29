@@ -15,6 +15,8 @@ app.use(express.json());
 
 // Rotte
 app.use('/api/contatti', require('./routes/contatti'));
+app.use('/api/pages', require('./routes/pages'));
+
 
 // Porta e ascolto server
 const PORT = process.env.PORT || 5000;

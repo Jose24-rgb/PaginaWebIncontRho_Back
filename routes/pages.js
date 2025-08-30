@@ -72,3 +72,5 @@ router.get('/contatti', (req, res) => {
 router.get('/benefici-fiscali', (req, res) => {
     res.json({ success: true });
   });
+
+  module.exports = router;
